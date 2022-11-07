@@ -121,3 +121,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/vue,vuejs,windows,java,macos,linux,visualstudiocode,database,git
 .env
+**/db/storage/*
