@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DeveloperNetworkSystemApplication<dns>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.roadvirushn.dns.DeveloperNetworkSystemApplication",
+            "projectName": "dns",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DnsApplication<dns>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "junseok.dns.DnsApplication",
+            "projectName": "dns",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
