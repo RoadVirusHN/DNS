@@ -1,4 +1,4 @@
-package junseok.dns;
+package com.roadvirushn.dns;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class DnsApplication {
+public class DeveloperNetworkSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DnsApplication.class, args);
+		SpringApplication.run(DeveloperNetworkSystemApplication.class, args);
 	}
 
 	@GetMapping("/hello")
